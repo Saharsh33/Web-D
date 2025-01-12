@@ -18,57 +18,62 @@ footer {
   text-align: right;
   color: midnightblue;
 }
-.creative{
-  color:midnightblue;
-}
-.title-image{
-  float: left;
+
+.tile-image {
   height: 200px;
-  margin: 50px;
-  
+  float: left;
+  margin-right: 50px;
 }
-.card{
+
+.card {
   width: 45%;
 }
-.left{
+
+.left {
   float: left;
 }
-.right{
+
+.right {
   float: right;
 }
-.card img{
-  border-radius: 10px;
+
+.creative {
+  color: midnightblue;
 }
-@media (max-width : 1200px)and (min-width : 680px){
-  body{
-  background-color:rgba(251, 83, 214, 0.852);
-}}
-@media (min-width : 1199px){
-  body{
-  background-color:rgba(208, 255, 0, 0.868);
-}}
 
-
-
-
-@media (max-width : 680px){
-  .logo{
+@media (max-width: 680px) {
+  .logo {
     width: 100px;
   }
-  .card{
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
     width: 100%;
     display: block;
     margin-bottom: 30px;
     text-align: justify;
- }
- .card img{
-  display: inline;
-  margin-bottom: 10px;
-  width: 100%;
-  object-fit: cover;
- }
- body{
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+   body{
   background-color: aqua;
  }
-
 }
+@media (max-width : 1200px)and (min-width : 680px){
+  body{
+  background-color:rgba(251, 83, 214, 0.852);
+}
+}
+@media (min-width : 1199px){
+  body{
+  background-color:rgba(208, 255, 0, 0.868);
+}}
