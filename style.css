@@ -77,3 +77,6 @@ footer {
   body{
   background-color:rgba(208, 255, 0, 0.868);
 }}
+.title-image{
+  border-radius:10px;
+}
